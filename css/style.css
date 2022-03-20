@@ -1,0 +1,121 @@
+font-family: "Montserrat", sans-serif;
+font-family: "Open Sans Condensed", sans-serif;
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.banner {
+  background-image: url("../image/banner.jpeg");
+  min-height: 650px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.navbar-nav > li > a {
+  text-transform: uppercase;
+  font-size: 14px;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+.navbar-nav > li {
+  padding: 0px 6px;
+}
+.navbar-nav > li > a.active,
+.navbar-nav > li > a:hover {
+  color: #10c9c3;
+  transition: 0.3s;
+}
+.banner-sec {
+  margin-top: 10%;
+  padding-left: 5%;
+}
+.banner-sec h1 {
+  font-size: 36px;
+  padding: 15px 0px;
+}
+.banner-sec p {
+  text-align: justify;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+.banner-sec button {
+  margin: 10px 0px;
+  font-size: 12px;
+  text-transform: uppercase;
+  padding: 14px 30px;
+  background-color: #10c9c3;
+  border: 1px solid #10c9c3;
+  border-radius: 0;
+}
+.banner-sec button:hover {
+  border: 1px solid black;
+  background: transparent;
+  color: black;
+}
+.aboutussec p {
+  padding: 0% 20%;
+  font-size: 14px;
+}
+.aboutussec img {
+  display: block;
+  margin: 0 auto;
+}
+.progressec {
+  background-image: url("../image/secimage1.jpeg");
+  min-height: 450px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.skilsec {
+  margin-top: 110px;
+}
+.bartitle h4 {
+  font-size: 28px;
+  font-family: "Open Sans Condensed", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.barsec {
+  margin-left: 75px;
+}
+.bartitle p {
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+#progress {
+  width: 85%;
+  height: 4px;
+  background-color: #c7cbd1;
+  border-radius: 4px;
+}
+#bar {
+  width: 60%;
+  height: 100%;
+  background-color: #10c9c3;
+  border-radius: 4px;
+}
+.overall {
+  width: 100%;
+  min-height: 220px;
+  background-color: #10c9c3;
+}
+.overalsec {
+  margin: 66px 50px;
+}
+.overalsec i {
+  font-size: 35px;
+  color: white;
+  float: left;
+  padding: 20px 16px;
+}
+.overalsec p {
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: white;
+  line-height: 8px;
+  text-transform: uppercase;
+}
